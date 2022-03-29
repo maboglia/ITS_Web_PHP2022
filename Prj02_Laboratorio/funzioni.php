@@ -1,5 +1,4 @@
-<?php include("header.php");  ?>
-<h1>Funzioni</h1>
+
 <?php
 
 function faiQualcosa($argomento)
@@ -16,4 +15,3 @@ function faiQualcosa($argomento)
 echo faiQualcosa("pippo");
 echo faiQualcosa(5);
 ?>
-<?php include("footer.php");  ?>

@@ -1,4 +1,3 @@
-<h1>Stringhe</h1>
 
 <?php
 

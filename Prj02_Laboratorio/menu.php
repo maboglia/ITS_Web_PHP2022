@@ -1,13 +1,10 @@
 <?php
 
-$labels = [
-    "variabili",
-    "stringhe",
-    "funzioni",
-];
 
 for ($i=0; $i < count($labels); $i++) { 
-    echo "<a href='?pagina=".$labels[$i]."'>".$labels[$i]."</a> ";
+    $classe = ($titolo_pagina == $labels[$i]) ? 'active' : '';
+
+    echo "<a class='{$classe}' href='?pagina=".$labels[$i]."'         >".$labels[$i]."</a> ";
 }
 
 ?>
