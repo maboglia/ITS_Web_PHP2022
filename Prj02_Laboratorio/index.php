@@ -27,6 +27,10 @@ if (  isset($_GET['pagina'])     ){
             include 'funzioni.php';
             break;
         
+        case 'array':
+            include 'array.php';
+            break;
+        
         default:
             include 'home.php';
             break;

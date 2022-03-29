@@ -8,4 +8,5 @@ $labels = [
     "variabili",
     "stringhe",
     "funzioni",
+    "array",
 ];
