@@ -1,0 +1,30 @@
+Francesco,Abrate
+Michele Davide,Aliverti
+Raul Constantin,Bercea
+Gabriele,Bovolenta
+Isolde,Brustolon
+Alessandro,De,Fano
+Sebastiano,Demichelis
+Luna,Diatto
+Dario,DiMaria
+Cristiano Francesco,Finotto
+Nemanja,Gajičić
+Andrea,Galantino
+Eloise,Bryony Giorda
+Paolo,Gippa
+Lorenzo,Lombardo
+Vincenzo,Mastromauro
+Joele,Melchiorre
+Pietro,Milanese
+Manuela,Moraglio
+Andrea,Muha
+Davide,Murroni
+Marco,Parisi
+Giampietro,Piras
+Lorenzo,Saracino
+Simone,Sporeni
+Federico Luciano,Stroppiana
+Lorenzo,Trabbia
+Jacopo,Trompeo
+Diego,Vaschetto
+Alessandro,Zaza
