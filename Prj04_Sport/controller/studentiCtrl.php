@@ -17,4 +17,27 @@
         $arrayStudenti[] = new Studente($nome, $cognome);
     }
 
+
+
+if (        isset($_POST)     ){
+
+    echo count($_POST);
+
+    for ($i=0; $i < 30 ; $i++) { 
+
+        $studente = new Studente($_POST['nome'][$i], $_POST['cognome'][$i]);
+        $studente->pos = $_POST['posizione'][$i];
+        // echo $_POST['nome'][$i]; 
+        // echo $_POST['cognome'][$i]; 
+        // echo $_POST['posizione'][$i]; 
+        // echo "<br>";
+        $arrayStudenti[] = $studente;
+    
+    }
+
+
+}
+
+
+
 ?>
