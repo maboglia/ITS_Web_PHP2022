@@ -7,8 +7,14 @@
 
     $studenti = file($elenco);
 
-    echo "<pre>";
-    print_r($studenti);
-    echo "</pre>";
+    $arrayStudenti = array();
+
+    foreach ($studenti as $studente) {
+        $studenteEsploso = explode(",", $studente);
+        $nome = $studenteEsploso[0];
+        $cognome = $studenteEsploso[1];
+
+        $arrayStudenti[] = new Studente($nome, $cognome);
+    }
 
 ?>
