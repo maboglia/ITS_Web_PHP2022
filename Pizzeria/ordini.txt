@@ -1,0 +1,5 @@
+margherita..........5 (pomodoro, mozzarella)4 stagioni..........6 (pomodoro, mozzarella, fontina)prosciutto..........6.5 (pomodoro, mozzarella, prosciutto)melanzane..........5.5 (pomodoro, mozzarella, melanzane)bianca..........4.5 (mozzarella)margherita..........5 (pomodoro, mozzarella)
+4 stagioni..........6 (pomodoro, mozzarella, fontina)
+prosciutto..........6.5 (pomodoro, mozzarella, prosciutto)
+melanzane..........5.5 (pomodoro, mozzarella, melanzane)
+bianca..........4.5 (mozzarella)
