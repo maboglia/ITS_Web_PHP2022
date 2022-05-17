@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="sparaJson">cliccami</button>
+
+
+<script>
+/*
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function (params) {
+        console.log(xhr.status)
+        console.log(xhr.readyState)
+
+        if (xhr.readyState == 4 && xhr.status == 200){
+
+            const libri = JSON.parse(xhr.response)
+            console.log(libri);
+            const UL = document.createElement('ul')
+            for (const libro of libri) {
+                const LI = document.createElement('li')
+                LI.textContent = libro.titolo
+                UL.appendChild(LI)
+            }
+            document.body.appendChild(UL)
+        }
+
+    }
+
+    xhr.open('GET', '../dao/Connessione.php');
+    xhr.send();
+*/
+
+document.getElementById('sparaJson').onclick = function(){
+
+fetch('../dao/Connessione.php').then(j => j.json() ).then(libri => {
+    const UL = document.createElement('ul')
+            for (const libro of libri) {
+                const LI = document.createElement('li')
+                LI.textContent = libro.titolo
+                UL.appendChild(LI)
+            }
+            document.body.appendChild(UL)
+})
+
+}
+
+</script>
+
+
+</body>
+</html>
